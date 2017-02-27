@@ -4310,7 +4310,7 @@
 	            this.$load.on("click", function (e) {
 	                e.preventDefault();
 	                $.ajax({
-	                    url: 'http://platform.sina.com.cn/slide/album_tech',
+	                    url: 'https://platform.sina.com.cn/slide/album_tech',
 	                    type: 'GET',
 	                    dataType: 'jsonp', // http://platform.sina.com.cn/slide/album_tech?jsoncallback=func&app_key=1271687855&num=3&page=4
 	                    jsonp: "jsoncallback",
