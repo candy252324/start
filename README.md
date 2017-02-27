@@ -1,1 +1,1 @@
-# start
+# 使用了多个JS组件，最后使用webpack打包
