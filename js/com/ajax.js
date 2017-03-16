@@ -1,4 +1,4 @@
-define(['../lib/jquery.min.js','./waterfall'], function( $ ,waterFall) {
+define(['jquery','./waterfall'], function( $ ,waterFall) {
 
     //ajax后台获取数据
     var AjaxMoudle={

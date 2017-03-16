@@ -21,7 +21,7 @@ Tab.init($('.tab'), function($panel){
 
  */
 
-define(['../lib/jquery.min.js'],function($) {
+define(['jquery'],function($) {
 	
 	var Tab = (function() {
 

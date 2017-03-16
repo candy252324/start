@@ -1,5 +1,5 @@
 
-define(['../lib/jquery.min.js'],function($) {
+define(['jquery'],function($) {
 	
 	var Exposure=(function(){
 		var hasShow=false;

@@ -1,6 +1,6 @@
 
 
-define(['../lib/jquery.min.js'],function($) {
+define(['jquery'],function($) {
 	var GoTop = {
 		init: function(){
 

@@ -1,16 +1,5 @@
-
-require("./css/style.css")
-require("./fontello/css/fontello.css")
-
-var $=require ("./js/lib/jquery.min.js")
-
-var Carousel=require("./js/com/carousel.js"),
-	GoTop=require("./js/com/gotop.js"),
-	Exposure=require("./js/com/exposure.js"),
-	WaterFall=require("./js/com/waterfall.js"),
-	Ajax=require("./js/com/ajax.js");
-
-
+define(["jquery","com/carousel","com/gotop","com/exposure","com/waterfall","com/ajax"],function($,Carousel,GoTop,Exposure,WaterFall,Ajax){
+	
 	$(".carousel").each(function(){
 		 new Carousel($(this));
 	 })
@@ -26,8 +15,7 @@ var Carousel=require("./js/com/carousel.js"),
 
 	Ajax.init($(".load"));
 
-
-	var navArr=['.nav-service a' ,'.nav-portfolio a','.nav-about a','.nav-team a','.nav-contact a'],
+		var navArr=['.nav-service a' ,'.nav-portfolio a','.nav-about a','.nav-team a','.nav-contact a'],
 		contentArr=['.service' ,'.portfolio','.about','.team','.contact'];
 
 	$(window).on('scroll',function(){
@@ -64,6 +52,12 @@ var Carousel=require("./js/com/carousel.js"),
 				})
 			})(i)
 		}
+
+
+})
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 
 		
-define(['../lib/jquery.min.js'],function($) {
+define(['jquery'],function($) {
 
 	var Carousel=(function(){
 		
